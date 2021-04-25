@@ -1,4 +1,5 @@
 ﻿using DesignPatternsConsole.Logic;
+using DesignPatternsConsole.Logic.Creational;
 using DesignPatternsConsole.Logic.Structural;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -36,8 +37,12 @@ namespace DesignPatternsConsole
                 switch (parameter.ToUpper())
                 {
                     case ("DECORATOR"):
-                        var service1 = _serviceProvider.GetService<DecoratorPatthern>();
+                        var service1 = _serviceProvider.GetService<DecoratorPattern>();
                         service1.RunExample();
+                        break;
+                    case ("FLYWEIGHT"):
+                        var service2 = _serviceProvider.GetService<SingletonPattern>();
+                        service2.RunExample();
                         break;
                     default:
                         break;

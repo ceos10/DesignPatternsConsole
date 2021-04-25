@@ -1,4 +1,5 @@
-﻿using DesignPatternsConsole.Logic.Structural;
+﻿using DesignPatternsConsole.Logic.Creational;
+using DesignPatternsConsole.Logic.Structural;
 using DesignPatternsConsole.Repositories;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -29,7 +30,10 @@ namespace DesignPatternsConsole
             switch (parameter)
             {
                 case "DECORATOR":
-                    services.AddSingleton<DecoratorPatthern>();
+                    services.AddSingleton<DecoratorPattern>();
+                    break;
+                case "FLYWEIGHT":
+                    services.AddSingleton<SingletonPattern>();
                     break;
                 default:
                     break;
