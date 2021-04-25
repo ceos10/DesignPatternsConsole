@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DesignPatternsConsole": {
+      "commandName": "Project",
+      "commandLineArgs": "\"DECORATOR\""
+    }
+  }
+}
