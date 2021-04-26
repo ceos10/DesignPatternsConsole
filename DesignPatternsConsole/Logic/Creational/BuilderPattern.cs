@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DesignPatternsConsole.Models.Builder;
 
 namespace DesignPatternsConsole.Logic.Creational
 {
@@ -10,7 +6,19 @@ namespace DesignPatternsConsole.Logic.Creational
     {
         public void RunExample()
         {
+            Shop shop = new Shop();
 
+            VehicleBuilder builder = new ScooterBuilder();
+            shop.Construct(builder);
+            builder.Vehicle.Show();
+
+            builder = new CarBuilder();
+            shop.Construct(builder);
+            builder.Vehicle.Show();
+
+            builder = new MotorCycleBuilder();
+            shop.Construct(builder);
+            builder.Vehicle.Show();
         }
     }
 }
