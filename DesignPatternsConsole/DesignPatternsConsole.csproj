@@ -34,4 +34,13 @@
     <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\Iterator\" />
+    <Folder Include="Models\Mediator\" />
+    <Folder Include="Models\Interpreter\" />
+    <Folder Include="Models\Memento\" />
+    <Folder Include="Models\Visitor\" />
+    <Folder Include="Models\Observer\" />
+  </ItemGroup>
+
 </Project>
