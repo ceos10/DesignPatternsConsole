@@ -3,7 +3,7 @@ using DesignPatternsConsole.Models.Iterator;
 
 namespace DesignPatternsConsole.Logic.Behavioral
 {
-    public class IteratorPattern
+    public class IteratorPattern : IPattern
     {
         public void RunExample() 
         {

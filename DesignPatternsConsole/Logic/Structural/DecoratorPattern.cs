@@ -3,7 +3,7 @@ using System;
 
 namespace DesignPatternsConsole.Logic.Structural
 {
-    public class DecoratorPattern
+    public class DecoratorPattern : IPattern
     {
         public void RunExample() 
         {

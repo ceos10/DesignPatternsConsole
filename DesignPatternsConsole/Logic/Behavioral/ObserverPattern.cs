@@ -2,7 +2,7 @@
 
 namespace DesignPatternsConsole.Logic.Behavioral
 {
-    public class ObserverPattern
+    public class ObserverPattern : IPattern
     {
         public void RunExample()
         {

@@ -3,7 +3,7 @@ using DesignPatternsConsole.Models.Proxy;
 
 namespace DesignPatternsConsole.Logic.Structural
 {
-    public class ProxyPattern
+    public class ProxyPattern : IPattern
     {
         public void RunExample()
         {

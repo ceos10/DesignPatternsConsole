@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatternsConsole.Logic.Creational
 {
-    public class FactoryMethodPattern
+    public class FactoryMethodPattern : IPattern
     {
         public void RunExample()
         {

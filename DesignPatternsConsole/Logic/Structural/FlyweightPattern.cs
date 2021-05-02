@@ -3,7 +3,7 @@ using DesignPatternsConsole.Models.Flyweight;
 
 namespace DesignPatternsConsole.Logic.Structural
 {
-    public class FlyweightPattern
+    public class FlyweightPattern : IPattern
     {
         public void RunExample()
         {

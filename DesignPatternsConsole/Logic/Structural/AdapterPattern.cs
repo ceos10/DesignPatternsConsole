@@ -2,7 +2,7 @@
 
 namespace DesignPatternsConsole.Logic.Structural
 {
-    public class AdapterPattern
+    public class AdapterPattern : IPattern
     {
         public void RunExample()
         {

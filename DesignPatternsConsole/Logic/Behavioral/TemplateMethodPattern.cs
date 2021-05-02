@@ -3,7 +3,7 @@ using System;
 
 namespace DesignPatternsConsole.Logic.Behavioral
 {
-    public class TemplateMethodPattern
+    public class TemplateMethodPattern : IPattern
     {
         public void RunExample()
         {

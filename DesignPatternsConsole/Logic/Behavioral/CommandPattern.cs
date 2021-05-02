@@ -2,7 +2,7 @@
 
 namespace DesignPatternsConsole.Logic.Behavioral
 {
-    public class CommandPattern
+    public class CommandPattern : IPattern
     {
         public void RunExample()
         {

@@ -3,7 +3,7 @@ using DesignPatternsConsole.Models.AbstractFactory;
 
 namespace DesignPatternsConsole.Logic.Creational
 {
-    public class AbstractFactoryPattern
+    public class AbstractFactoryPattern : IPattern
     {
         public void RunExample()
         {

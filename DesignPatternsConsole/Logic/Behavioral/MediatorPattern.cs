@@ -2,7 +2,7 @@
 
 namespace DesignPatternsConsole.Logic.Behavioral
 {
-    public class MediatorPattern
+    public class MediatorPattern : IPattern
     {
         public void RunExample()
         {

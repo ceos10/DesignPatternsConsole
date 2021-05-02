@@ -2,7 +2,7 @@
 
 namespace DesignPatternsConsole.Logic.Creational
 {
-    public class BuilderPattern
+    public class BuilderPattern : IPattern
     {
         public void RunExample()
         {

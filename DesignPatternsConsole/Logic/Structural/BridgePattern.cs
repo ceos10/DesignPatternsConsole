@@ -3,7 +3,7 @@ using DesignPatternsConsole.Models.Bridge;
 
 namespace DesignPatternsConsole.Logic.Structural
 {
-    public class BridgePattern
+    public class BridgePattern : IPattern
     {
         public void RunExample()
         {

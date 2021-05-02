@@ -2,7 +2,7 @@
 
 namespace DesignPatternsConsole.Logic.Creational
 {
-    public class PrototypePattern
+    public class PrototypePattern : IPattern
     {
         public void RunExample()
         {

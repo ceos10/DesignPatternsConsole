@@ -2,7 +2,7 @@
 
 namespace DesignPatternsConsole.Logic.Behavioral
 {
-    public class ChainOfResponsibilityPattern
+    public class ChainOfResponsibilityPattern : IPattern
     {
         public void RunExample() 
         {

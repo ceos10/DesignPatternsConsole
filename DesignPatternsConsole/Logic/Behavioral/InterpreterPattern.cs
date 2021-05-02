@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatternsConsole.Logic.Behavioral
 {
-    public class InterpreterPattern
+    public class InterpreterPattern : IPattern
     {
         public void RunExample()
         {

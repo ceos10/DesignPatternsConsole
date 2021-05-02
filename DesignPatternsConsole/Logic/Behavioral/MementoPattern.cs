@@ -3,7 +3,7 @@ using DesignPatternsConsole.Models.Memento;
 
 namespace DesignPatternsConsole.Logic.Behavioral
 {
-    public class MementoPattern
+    public class MementoPattern : IPattern
     {
         public void RunExample()
         {

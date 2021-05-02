@@ -3,7 +3,7 @@ using DesignPatternsConsole.Models.Composite;
 
 namespace DesignPatternsConsole.Logic.Structural
 {
-    public class CompositePattern
+    public class CompositePattern : IPattern
     {
         public void RunExample()
         {

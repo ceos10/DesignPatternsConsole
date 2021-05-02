@@ -2,7 +2,7 @@
 
 namespace DesignPatternsConsole.Logic.Behavioral
 {
-    public class StrategyPattern
+    public class StrategyPattern : IPattern
     {
         public void RunExample() 
         {
