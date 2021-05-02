@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DesignPatternsConsole.Models.Visitor;
 
 namespace DesignPatternsConsole.Logic.Behavioral
 {
@@ -10,7 +6,13 @@ namespace DesignPatternsConsole.Logic.Behavioral
     {
         public void RunExample()
         {
+            Employees e = new Employees();
+            e.Attach(new Clerk());
+            e.Attach(new Director());
+            e.Attach(new President());
 
+            e.Accept(new IncomeVisitor());
+            e.Accept(new VacationVisitor());
         }
     }
 }
