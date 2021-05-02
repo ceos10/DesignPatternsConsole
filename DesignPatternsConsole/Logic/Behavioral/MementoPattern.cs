@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace DesignPatternsConsole.Logic.Behavioral
 {
-    class MementoPattern
+    public class MementoPattern
     {
+        public void RunExample()
+        {
+
+        }
     }
 }

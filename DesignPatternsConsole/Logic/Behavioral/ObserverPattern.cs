@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace DesignPatternsConsole.Logic.Behavioral
 {
-    class ObserverPattern
+    public class ObserverPattern
     {
+        public void RunExample()
+        {
+
+        }
     }
 }

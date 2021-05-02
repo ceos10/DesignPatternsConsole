@@ -35,8 +35,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\Iterator\" />
-    <Folder Include="Models\Mediator\" />
     <Folder Include="Models\Interpreter\" />
     <Folder Include="Models\Memento\" />
     <Folder Include="Models\Visitor\" />
